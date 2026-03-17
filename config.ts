@@ -8,7 +8,7 @@ const config = {
   appDescription:
     "Match Delta Air Lines ship numbers to their aircraft types — a timed quiz game with leaderboards.",
   // REQUIRED (no https://, not trailing slash at the end, just the naked domain)
-  domainName: "fleetquiz.netlify.app",
+  domainName: "shipquiz.netlify.app",
   crisp: {
     id: "",
     onlyShowOnRoutes: ["/"],
@@ -22,8 +22,8 @@ const config = {
     cdn: "https://cdn-id.cloudfront.net/",
   },
   resend: {
-    fromNoReply: `Delta Fleet Quiz <noreply@fleetquiz.netlify.app>`,
-    fromAdmin: `Delta Fleet Quiz <admin@fleetquiz.netlify.app>`,
+    fromNoReply: `Delta Fleet Quiz <noreply@shipquiz.netlify.app>`,
+    fromAdmin: `Delta Fleet Quiz <admin@shipquiz.netlify.app>`,
     supportEmail: "",
   },
   colors: {
