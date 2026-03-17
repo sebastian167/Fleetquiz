@@ -1,0 +1,4 @@
+[build]
+  base = "sky-quiz"
+  publish = "sky-quiz"
+  command = "echo 'No build needed - static site'"
