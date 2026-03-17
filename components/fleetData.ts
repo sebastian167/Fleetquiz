@@ -1056,7 +1056,7 @@ export const FLEET_DATA = [
   { ship: "199", type: "767" },
 ];
 
-export const ALL_TYPES = [...new Set(FLEET_DATA.map(d => d.type))];
+export const ALL_TYPES = Array.from(new Set(FLEET_DATA.map(d => d.type)));
 
 export const LEVELS = [
   { name: "EASY",    timer: 15, scoreMultiplier: 1,   altitudeGain: 12, altitudeLoss: 15 },
